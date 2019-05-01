@@ -1,6 +1,6 @@
 # patatap
 
-A project to recreate the infamous patatap.com app
+A project to recreate the infamous [patatap](https://patatap.com/) app
 
 https://sliqric7053.github.io/patatap/
 
