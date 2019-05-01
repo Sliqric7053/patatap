@@ -1,10 +1,52 @@
 canvas {
   width: 100%;
   height: 100%;
-  background: black;
+  background: goldenrod;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.text {
+  text-align: center;
+  background: white;
+  color: #666666;
+  font-family: 'Lucida Grande', verdana, sans-serif;
+  font-size: 12px;
+  line-height: 32px;
+  border-radius: 10.56px;
+  padding: 0 16px;
+}
+
+#hint {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 15%;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#hint .message {
+  display: inline-block;
+  background: white;
+  color: #666666;
+  font-family: 'Lucida Grande', verdana, sans-serif;
+  font-size: 12px;
+  line-height: 32px;
+  border-radius: 10.56px;
+  padding: 0 16px;
 }
