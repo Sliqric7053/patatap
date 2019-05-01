@@ -6,7 +6,6 @@ function init() {
   hint.parentNode.removeChild(hint);
   console.log('TCL: init -> hint', hint);
   var ctx = c.getContext('2d');
-  console.log('TCL: init -> ctx', ctx);
   //create an object to hold sound/color key value pairs
   var keyData = {
     q: {
